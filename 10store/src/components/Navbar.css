@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* max-width: 1700px; */
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar{
+    height: 90px;
+    position: relative;
+    background-color: rgb(247, 245, 245);
+}
+
+.nav-elements ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+.nav-elements ul a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(104, 104, 104);
+}
